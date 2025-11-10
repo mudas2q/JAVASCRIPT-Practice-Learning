@@ -25,6 +25,11 @@ num2 = 25;
 console.log(num1, num2);
 //  Explain: primitive data type me value copy ho sakti hai✅ lekin copy value ko Change Nahi ho sakti❌ kyuki ye IMMUTABLE hai num1 change nahi hoga sirif num2 change hoga.
 
+//   BY REFERENCE MUTABLE.
+let glass1 = { filling: "empty" };
+let glass2 = glass1;
+glass2.filling = "Water";
+console.log("Glass1:", glass1, "glass2", glass2);
 
 // 3. MINI PROJECT - USER INFO TYPEcaster.
 let Name = prompt("👤 What's Your Name?");  //Prompt is Always return in String  
