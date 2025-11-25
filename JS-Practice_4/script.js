@@ -54,7 +54,7 @@ Exponent Power: <i> ${num1 ** num2} </i>
 
 //🧩 Task 2 [START]:- Smart Login Simulator.
 
-//   👇THIS PROGRAM WORKING LIKE BEGINNER.
+//   👇THIS PROGRAM WORKING LIKE BASIC STACTIC.
 // let savedEmail = "student@gmail.com";
 // let savedPassword = "12345";
 // const userEmail = prompt("Please enter your Email:");
@@ -73,7 +73,7 @@ Exponent Power: <i> ${num1 ** num2} </i>
 //     : "Error: Invalid Email or Password.";
 // console.log(`Status Message: ${loginMessage}`);
 
-// 👇I developed this program MySelf.
+// 👇 I developed this program Dynamicly.
 let new_email = prompt("Create Your Email");
 let new_password = prompt("Create Your Password");
 
@@ -97,7 +97,7 @@ let Checking =
 
        (new_password !== login_password)
       ? "❌ Incorrect Password!"
-        :"❌ Unknown Error!";
+        :"Unknown Error!";
 
 alert(Checking);
 document.write(`<h1> ${Checking} <br> Your Email:- ${new_email} <br> Your Password:- ${new_password}</h1>`);

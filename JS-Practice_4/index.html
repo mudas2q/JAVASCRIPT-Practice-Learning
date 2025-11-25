@@ -9,7 +9,7 @@
       h1 {
         font-family: sans-serif;
         font-style: italic;
-        font-size: 1.3rem;
+        font-size: 1.6rem;
       }
 
       i {
@@ -26,14 +26,14 @@
         padding: 0.7rem 1rem;
         font-weight: bold;
         border-radius: 15px;
+        background-color: goldenrod;
       }
     </style>
   </head>
 
   <body>
-    <button
-      onclick="let Student_marks = prompt('Enter Your Marks?');
-const check_marks =
+    <button onclick="let Student_marks = prompt('Enter Your Marks. Out of 100');
+       const check_marks =
       (Student_marks >= 100) ? 'Grade A+ · Perfect Score'
     : (Student_marks >= 80)  ? 'Grade A1 · Excellent'
     : (Student_marks >= 70)  ? 'Grade A · Very Good'
@@ -41,11 +41,7 @@ const check_marks =
     : (Student_marks >= 50)  ? 'Grade C · Average'
     : (Student_marks >= 0)   ? 'Fail · Try Again'
     : 'Invalid Input';
-document.write(`<h1> ${check_marks} </h1>`);
-"
-    >
-      Check Your Result!
-    </button>
+    document.write(`<h1> ${check_marks} </h1>`);">Check Your Result!</button>
     <script src="./script.js"></script>
   </body>
 </html>
