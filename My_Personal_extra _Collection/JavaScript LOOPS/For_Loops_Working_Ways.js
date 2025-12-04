@@ -1,4 +1,4 @@
-// [ 1 ]-----
+// [ 1 ]--(cheking '123' pin 4 time)--
 for (let a = 1; a <= 4; a++) {
     let xyz = prompt(`hello world ${a}`);
     if ("123" === xyz) {
@@ -9,7 +9,7 @@ for (let a = 1; a <= 4; a++) {
     }
 }
 
-// [ 2 ]------
+// [ 2 ]-[ Print 5 Names line by Line]----
 for (let i = 1; i <= 5; i++) {
     let messege = prompt(`Enter Messege! ${i}`);
     console.log(`${messege} <br>`);
