@@ -78,3 +78,25 @@ for (let w = 1; w <= 50; w++){
     sum = sum + w;
 }
 console.log(`Total Sum: ${sum}`);
+
+//============================================================
+// [ TASK: 9️⃣ ] (Print each character of a string: "JavaScript")
+//============================================================
+
+let str = "JavaScript";
+for (let i = 0; i < str.length; i++) {
+    console.log(str[i]);
+}
+
+//============================================================
+// [ TASK: 🔟 ] ( Emoji Repeater ).
+//============================================================
+
+let emoji_prompt = prompt("Enter any Emoji 😊 or Character to Repeat.");
+let count = Number(prompt(`How Many times Should "${emoji_prompt}" be Repeated?`));
+let emoji = "";
+for (let e = 1; e <= count; e++){
+    emoji += emoji_prompt;
+}
+console.log(`You Ask to Repeat ${count} Times. \n\n ${emoji}`);
+alert(`You Ask to Repeat ${count} Times. \n\n ${emoji}`);
