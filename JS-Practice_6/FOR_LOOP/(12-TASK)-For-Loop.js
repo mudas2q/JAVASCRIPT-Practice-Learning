@@ -89,7 +89,7 @@ for (let i = 0; i < str.length; i++) {
 }
 
 //============================================================
-// [ TASK: 🔟 ] ( Emoji Repeater ).
+// [ TASK: 🔟 ] ( Emoji Repeater ). DYNAMICLY "PROMPT".
 //============================================================
 
 let emoji_prompt = prompt("Enter any Emoji 😊 or Character to Repeat.");
@@ -100,3 +100,32 @@ for (let e = 1; e <= count; e++){
 }
 console.log(`You Ask to Repeat ${count} Times. \n\n ${emoji}`);
 alert(`You Ask to Repeat ${count} Times. \n\n ${emoji}`);
+
+//============================================================
+// [ TASK: 🔟 ] ( Emoji Repeater ). Static.
+//============================================================
+
+let emoji_ = "";
+for (var e = 1; e <= 5; e++){
+    emoji_ += "😊 ";
+}
+console.log(`${e - 1} Times: ${emoji_}`);
+
+//============================================================
+// [ TASK: 1️⃣1️⃣ ] ( * STAR Pyramid ). 
+//============================================================
+
+let star = "";
+for (let si = 1; si <= 5; si++){
+    star = star + "*";
+    console.log(`${star}`);
+}
+
+//============================================================
+// [ TASK: 1️⃣2️⃣ ] ( COUNT-DOWN ROcket Launch ). 🚀
+//============================================================
+
+for (let rocket = 10; rocket >= 1; rocket--){
+    console.log(` ${rocket} `);
+}
+console.log(`🚀 Launch!`);
