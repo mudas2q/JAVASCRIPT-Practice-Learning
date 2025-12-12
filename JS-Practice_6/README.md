@@ -1,1 +1,1 @@
-# JS 6 - Loops and for, while, do while
+# JS 6 - LOOPS: (for), (while), (do while)
