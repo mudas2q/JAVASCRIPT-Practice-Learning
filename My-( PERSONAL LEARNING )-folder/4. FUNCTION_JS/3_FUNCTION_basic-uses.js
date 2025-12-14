@@ -67,6 +67,7 @@ Boolean(1)      // true
 Math.random()
 Math.floor()
 Math.ceil()
+Math.max()
 
 // 6. 🟢 Custom Functions.
 function sayHello() {
