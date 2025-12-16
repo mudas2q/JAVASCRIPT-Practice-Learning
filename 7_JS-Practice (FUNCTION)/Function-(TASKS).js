@@ -86,8 +86,67 @@ const result = luckyNumberGenerator(userName);
 console.log(result);
 
 //========================================
-// 5️⃣. [ ALternative ]-
+// 5️⃣. [ ALternative ]- Arrow Function--
 //========================================
 
 const luckyNumberGenerator = (name) => `${name}, your lucky number is ${Math.floor(Math.random() * 10) + 1}!`;
 console.log(luckyNumberGenerator("Mudasir")); // e.g., "Mudasir, your lucky number is 3!"
+
+//==========================================
+// 6️⃣. [ Tea or Coffee Maker ]---
+//==========================================
+
+function drinks(drink){
+    console.log(`Your ${drink} is Ready!`);
+}
+drinks("tea");
+
+
+//___[ Alternative: 1]______:
+function drinks(drink){
+    let message = `Your ${drink} is Ready!`;
+    return message;
+}
+const order_drinks = drinks("tea");
+console.log(order_drinks)
+
+
+//___[ Alternative: 2 ]____(Recommended)___:
+function drinks(drink) {
+    if (drink === "tea") {
+        return "☕ Your tea is ready!";
+    } else if (drink === "coffee") {
+        return "🍵 Your coffee is ready!";
+    } else {
+        return "❌ Sorry, we only serve tea or coffee.";
+    }
+}
+const orderDrink = drinks("tea");
+console.log(orderDrink);
+
+
+//___[ Alternative: 3 ]________:
+function drinks(drink){
+    return `Your ${drink} is Ready!`;
+}
+const order_drink = drinks("tea");
+console.log(order_drink);
+
+//===========================================
+// 7️⃣. [ Password Strength Checker ]----
+//===========================================
+
+function checkPasswordStrength(password) {
+    if (password.length < 4) {
+        return "Weak";
+    }
+    else if (password.length < 7) {
+        return "Medium";
+    }
+    else {
+        return "Strong";
+    }
+}
+console.log(checkPasswordStrength("123"));        // Weak
+console.log(checkPasswordStrength("123456"));     // Medium
+console.log(checkPasswordStrength("1234567"));  // Strong
