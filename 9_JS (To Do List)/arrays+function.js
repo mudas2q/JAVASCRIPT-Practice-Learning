@@ -28,14 +28,14 @@ let input1 = prompt("enter task 1 to add");
 let input2 = prompt("enter task 2 to add");
 let input3 = prompt("enter task 3 to add");
 
-// 4. ( ADDING FUNCTION )======
+// 4. ( ADDING CALL FUNCTION )======
 addtask(input1);
 addtask(input2);
 addtask(input3);
 
 let input4 = prompt(`Which task do you want to remove?\n ${tasks}`);
 
-// 5. ( REMOVING FUNCTION )======
+// 5. ( REMOVING CALL FUNCTION )======
 if (input4 !== null && input4 !== "") {
     removetask(input4);
 }
