@@ -124,7 +124,8 @@ let newFruits = fruits.slice(0, 2);
 
 // splice(start, deleteCount) → changes original array
 fruits.splice(1, 1); // removes 1 item from index 1
-
+// Syntax work: splice ka.
+array.splice(start, deleteCount, item1, item2,);
 /*===========================================================
  🔟 map(), filter(), reduce() (BASIC INTRO)
 ===========================================================*/

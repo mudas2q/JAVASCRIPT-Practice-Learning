@@ -22,6 +22,13 @@ for (let even = 2; even <= 20; even += 2) {
     console.log(`Even No: ${even}`)
 }
 
+// (Best Recommend Code to Print: EVEN NUMBER):
+for (let Even = 1; Even <= 20; Even++){
+    if(Even % 2 === 0){
+        console.log(Even);
+    }
+}
+
 //=================================================
 //--[ TASK: 4️⃣ ] -(Print Odd numbers from 2 to 20).
 //=================================================
@@ -45,6 +52,22 @@ for (let i = 1; i <= 20; i++) {
     document.write(input % 2 === 0 ? `<h1> Even: ${input} </h1>` : `<h1> Odd: ${input} </h1>`);
     console.log(input % 2 === 0 ? `Even: ${input}` : `Odd: ${input}`);
     input += 2;
+}
+
+//============================================================
+// [ TASK: 5️⃣ ] -(Print BOTH "Odd & EVEN" numbers "Dynamicly + Recommeded").
+//============================================================
+
+let Input = 2;
+for (let i = 1; i <= 20; i++) {
+    if (!Input || isNaN(Input)) {
+        console.log(`Input can't be Empty ❌`);
+        break;
+    }
+    Input = Number(Input);
+    let isEven = (Input % 2 === 0) ? `Even: ${Input}` : `Odd: ${Input}`;
+    console.log(isEven);
+    Input += 2;
 }
 
 //============================================================
