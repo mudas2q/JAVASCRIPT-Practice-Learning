@@ -7,7 +7,7 @@ Me full 100% complete, aur bina kisi doubt ke [Your Topic] seekhna chahta hu. Aa
 4. Har concept clearly explain karo.
 5. Code me unnecessary comments (// aur /**/) nahi lagao aur Maximum sirf 1 ek hi /**/ // use karo sabhi, saare texts likhne ke liye sirif ek multiline comment use karo. Saath hi actual working JavaScript code bhi include karo.
 6. Headings aur topics ke liye comments me = use nahi karo, instead sirf ═ use karo.
-7. Main Heading, Topic ke liye number-wise 1️⃣2️⃣b bhi use karo numbering consistent rakho.
+7. Main Heading, Topic ke liye number-wise 1️⃣2️⃣ use karo numbering consistent rakho.
 8. how many types?
 9. Where is it used in real life?
 10. What is the correct, Recommend, best practice way to write it?
