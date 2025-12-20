@@ -21,4 +21,4 @@ aur Saath hi actual working JavaScript code bhi include karte jao samjhane ke li
 11. step by step beginner to advanced level tak guide karo deeply.
 
 Mujhe ye format strictly follow karte hue qwer notes create kar do.
-Sirf mere diye hue instructions tak limited na raho Meri di hui instructions ko strictly follow karo, lekin teaching style static nahi ho apni expertise aur AI intelligence ka 100% use kar ke dynamically mujhe samjhao aur guide karo.
+Sirf mere diye hue instructions tak limited na raho, lekin teaching style static nahi ho apni expertise aur AI intelligence ka 100% use kar ke dynamically mujhe samjhao aur guide karo.
