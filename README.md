@@ -1,4 +1,4 @@
-﻿# JS
+﻿
 
 <a href="https://github.com/hammadShamir/web-and-mobile-development-batch-no-08.git" target="_blank"><b>GITHUB Source of Code/Links:</b></a>
 
