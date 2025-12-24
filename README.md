@@ -1,4 +1,7 @@
-﻿
+﻿<!DOCTYPE html>
+<html lang="en">
+<head></head>
+<body>
 
 <a href="https://github.com/hammadShamir/web-and-mobile-development-batch-no-08.git" target="_blank"><b>GITHUB Source of Code/Links:</b></a>
 
@@ -18,4 +21,6 @@ https://classroom.google.com/c/NzkyNTUyNjMxMDI2/a/NzkyNTU5NjI4OTUz/details https
 <hr>
 <b>My YT-Video:</b> https://youtu.be/aSRMBgaaok4?si=ncS5_CaiHyylBWqB
 
+</body>
+</html>
 
